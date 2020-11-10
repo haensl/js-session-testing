@@ -1,0 +1,14 @@
+.MyComponent {
+  display: flex;
+  margin: 3em;
+  font-family: Roboto;
+  line-height: 1.63;
+}
+
+.MyComponent > * {
+  margin: 1em;
+}
+
+.MyComponent.MyComponent--isRed {
+  color: #de3311;
+}
